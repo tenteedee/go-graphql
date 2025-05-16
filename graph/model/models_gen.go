@@ -8,6 +8,12 @@ type Mutation struct {
 type NewMeetup struct {
 	Name        string `json:"name"`
 	Description string `json:"description"`
+	UserID      string `json:"user_id"`
+}
+
+type UpdateMeetup struct {
+	Name        string `json:"name"`
+	Description string `json:"description"`
 }
 
 type Query struct {

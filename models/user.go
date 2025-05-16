@@ -5,5 +5,5 @@ type User struct {
 	Username string `json:"username"`
 	Email    string `json:"email"`
 
-	Meetups []*Meetup `json:"meetups"`
+	// Meetups []*Meetup `json:"meetups"`
 }

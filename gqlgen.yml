@@ -51,3 +51,6 @@ models:
   Meetup:
     model:
       - github.com/tenteedee/go-graphql/models.Meetup
+    fields:
+      user:
+        resolver: true
